@@ -36,4 +36,30 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: $colorBg;
+
+  @media screen and (max-width: 768px) {
+    height: auto;
+  }
+}
+h1 {
+  font-family: $fontXlight;
+  font-size: 2.3rem;
+  color: $colorTitle;
+  margin-bottom: 15px;
+
+  span {
+    font-family: $fontSemiBold;
+  }
+}
+h2 {
+  font-family: $fontSemiBold;
+  font-size: 1.4rem;
+  color: $colorTitle;
+  margin-bottom: 10px;
+}
+p {
+  font-family: $fontRegular;
+  line-height: 25px;
+  color: $colorText;
 }
