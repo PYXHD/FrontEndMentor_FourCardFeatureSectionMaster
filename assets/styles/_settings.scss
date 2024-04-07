@@ -1,0 +1,39 @@
+@font-face {
+  font-family: Poppins-Extralight; //font-weight: 200;
+  src: url(../fonts/Poppins-ExtraLight.ttf);
+}
+@font-face {
+  font-family: Poppins-Regular; //font-weight: 400;
+  src: url(../fonts/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: Poppins-Semibold; //font-weight: 600;
+  src: url(../fonts/Poppins-SemiBold.ttf);
+}
+
+$fontXlight: Poppins-Extralight;
+$fontRegular: Poppins-Regular;
+$fontSemiBold: Poppins-SemiBold;
+
+$colorTitle: rgb(76, 78, 97);
+$colorText: rgb(163, 165, 174);
+$colorBg: rgb(250, 250, 250);
+$colorRed: rgb(235, 84, 84);
+$colorCyan: rgb(69, 211, 211);
+$colorOrange: rgb(252, 175, 74);
+$colorBlue: rgb(84, 158, 242);
+
+html {
+  font-size: 15px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
